@@ -38,7 +38,7 @@ Este é um Sistema de Gerenciamento de Aprendizado (LMS) robusto e moderno, proj
 | **Certificação** | **Sistema de Quizzes** |
 |:---:|:---:|
 | <img src="screenshots/certificado.gif" width="400px"> | <img src="screenshots/quiz.gif" width="400px"> |
-| *Liberação do certificado após 100% de conclusão.* | *Testes dinâmicos com feedback de gabarito.* |
+| *Liberação do certificado após 100% de conclusão.* | *Testes dinâmicos com feedback de gabarito inteligente.* |
 
 ### 🛡️ Segurança e Administração
 | **Vigilante de Sessão** | **Painel Administrativo** |
@@ -56,39 +56,49 @@ Este é um Sistema de Gerenciamento de Aprendizado (LMS) robusto e moderno, proj
 | <img src="screenshots/criando conta.gif" width="400px"> | <img src="screenshots/redefinição de senha.gif" width="400px"> |
 | *Fluxo de registro intuitivo para novos alunos.* | *Reset seguro via e-mail com tokens temporários.* |
 
-| **Aprovação do aluno no email** | **Banco de provas** |
+| **Notificação por E-mail** | **Edição de Perfil** |
 |:---:|:---:|
-| <img src="screenshots/aprovado.PNG" width="400px"> | <img src="screenshots/redefinição de senha.gif" width="400px"> |
-| *Aluno recebe um email de aprovação.* | *Um lugar para baixar documentos pdf, provas e gabarito.* |
-
+| <img src="screenshots/aprovado.PNG" width="400px"> | <img src="screenshots/editar profile.gif" width="400px"> |
+| *Design Neon Dark para e-mails de aprovação.* | *Gestão de avatar e dados pessoais pelo aluno.* |
 
 ---
 
-## 🚀 Como Testar o Projeto
+## 🛠️ Instalação e Configuração Local
 
-Para rodar o projeto localmente, siga os passos abaixo:
+1.  **Clone o repositório:** `git clone https://github.com/DioLobo/Wikicx.git`
+2.  **Servidor Local:** Mova a pasta para o `htdocs` (XAMPP) ou `www` (Wamp).
+3.  **Banco de Dados:** Importe o arquivo `seu banco.sql` através do PHPMyAdmin.
+4.  **Configuração:** Renomeie o arquivo `.env.example` para `.env` e insira suas credenciais do banco.
 
-1. Importe o arquivo `seu banco.sql` no seu servidor MySQL.
-2. Configure as credenciais de acesso no arquivo `.env`.
-3. Utilize as credenciais de teste abaixo:
+---
+Para avaliar as funcionalidades administrativas e de aluno, utilize as credenciais abaixo integradas ao arquivo `seu banco.sql`:
 
-| **Usuário** | **Senha** | **Nível** |
-|:---:|:---:|:---:|
-| `teste@gmail.com` | `password` | Aluno/Teste |
+| Nível de Acesso | Usuário (E-mail) | Senha | Status |
+| :--- | :--- | :--- | :--- |
+| ![Admin](https://img.shields.io/badge/ADMIN-red?style=flat-square) | `teste@gmail.com` | `password` | ![Ativo](https://img.shields.io/badge/Acesso_Liberado-brightgreen?style=flat-square) |
+
+> **Nota:** A conta de administrador possui permissão para aprovar novos cadastros e gerenciar o conteúdo no diretório `/admin`.
 
 ---
 
 ## 📂 Organização do Projeto
 
-A estrutura de pastas do projeto está organizada da seguinte forma:
+A estrutura de pastas reflete a modularização do sistema:
 
-* **/admin**: Telas de gestão de aulas, módulos e usuários.
-* **/api**: Endpoints de verificação e lógica do sistema.
-* **/assets**: Arquivos de recursos estáticos.
-* **/config**: Conexão com DB e vigilante de sessão.
-* **/mailer**: Lógica de envio de e-mails.
-* **/screenshots**: Assets visuais da documentação.
-* **/uploads**: Armazenamento de avatares e materiais.
-
+* **/admin**: Gestão de aulas, módulos e aprovações de usuários.
+* **/api**: Endpoints para comunicação assíncrona e lógica de quizzes.
+* **/assets**: Recursos estáticos (Imagens, ícones, CSS global).
+* **/config**: Parâmetros de conexão e vigilante de sessão.
+* **/mailer**: Configuração do PHPMailer para disparos automáticos.
+* **/screenshots**: Documentação visual do projeto.
+* **/uploads**: Repositório de mídias e materiais de aula.
 ---
-*Desenvolvido por [DioLobo](https://github.com/DioLobo)*
+
+
+
+## 🤝 Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diogomlobo/)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5521973073162)
+[![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:diogo.dmlrj@gmail.com)
+---
