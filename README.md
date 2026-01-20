@@ -85,7 +85,7 @@ Para avaliar as funcionalidades administrativas e de aluno, utilize as credencia
 
 A estrutura de pastas reflete a modularização do sistema:
 
-* **/admin**: Gestão de aulas, módulos e aprovações de usuários.
+
 * **/api**: Endpoints para comunicação assíncrona e lógica de quizzes.
 * **/assets**: Recursos estáticos (Imagens, ícones, CSS global).
 * **/config**: Parâmetros de conexão e vigilante de sessão.
