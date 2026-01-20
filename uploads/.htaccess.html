@@ -1,0 +1,9 @@
+# Desativa a execução de scripts PHP nesta pasta
+# (Impede que alguém rode um script malicioso que conseguiu subir)
+<Files *.php>
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Impede a listagem de arquivos (ninguém vê a lista do que tem na pasta)
+Options -Indexes

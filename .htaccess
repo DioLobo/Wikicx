@@ -1,0 +1,24 @@
+# 1. Impede que vejam a lista de arquivos se digitarem apenas a pasta
+Options -Indexes
+
+# 2. Proteção básica contra acesso direto a arquivos sensíveis (.env, .git, etc)
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# 3. Forçar HTTPS (Segurança - O cadeado verde)
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# 4. (Opcional) Remover a extensão .php da URL (Estética)
+# Transforma seuesite.com/login.php em seusite.com/login
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}\.php -f
+    RewriteRule ^(.*)$ $1.php [NC,L]
+</IfModule>

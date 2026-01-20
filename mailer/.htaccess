@@ -1,0 +1,3 @@
+# Bloqueia acesso total. O site consegue usar, mas o usuário não consegue abrir no navegador.
+Order Deny,Allow
+Deny from all

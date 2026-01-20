@@ -1,0 +1,5 @@
+# Ninguém pode acessar arquivos desta pasta diretamente pelo navegador
+<Files *>
+    Order Deny,Allow
+    Deny from all
+</Files>
