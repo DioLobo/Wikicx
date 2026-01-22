@@ -81,20 +81,19 @@ Para avaliar as funcionalidades administrativas e de aluno, utilize as credencia
 
 ---
 
-## 📂 Organização do Projeto
+### 📂 Estrutura de Arquivos Críticos
+Abaixo estão os arquivos fundamentais que compõem a arquitetura de segurança e interface.
 
-A estrutura de pastas reflete a modularização do sistema:
+#### 🛠️ Configurações e Segurança
+* **`config/db.php`**: Responsável pela conexão PDO com o banco de dados e pela sincronização do Timezone (fuso horário).
+* **`config/session_check.php`**: Atua como o **"Vigilante"** do sistema, validando o token de sessão do usuário a cada interação.
+* **`api/check_session.php`**: Endpoint que permite ao JavaScript identificar sessões expiradas e encerrá-las em tempo real.
 
+#### 🖥️ Interfaces Principais
+* **`admin_usuarios.php`**: Painel administrativo centralizado para gerenciamento de contas e permissões.
+* **`index.php`**: Dashboard principal responsivo para visualização de métricas e controle de acessos.
 
-* **/api**: Endpoints para comunicação assíncrona e lógica de quizzes.
-* **/assets**: Recursos estáticos (Imagens, ícones, CSS global).
-* **/config**: Parâmetros de conexão e vigilante de sessão.
-* **/mailer**: Configuração do PHPMailer para disparos automáticos.
-* **/screenshots**: Documentação visual do projeto.
-* **/uploads**: Repositório de mídias e materiais de aula.
 ---
-
-
 
 ## 🤝 Contato
 
