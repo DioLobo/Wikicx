@@ -1,24 +1,85 @@
-# 📚 CXPRO - Portal de Treinamento & Wiki
+# 🚀 CXPRO — Portal de Treinamento, Wiki & LMS Corporativo
 
-<div align="center">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="50" height="50"/>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css3" width="50" height="50"/>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="50" height="50"/>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="50" height="50"/>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="50" height="50"/>
-</div>
+<p align="center">
+  <strong>Plataforma LMS corporativa com gamificação, segurança avançada e controle administrativo total.</strong><br>
+  Desenvolvida para onboarding, capacitação contínua e padronização de conhecimento.
+</p>
 
-<br>
-
-Este é um Sistema de Gerenciamento de Aprendizado (LMS) robusto e moderno, projetado para oferecer uma experiência de ensino gamificada, segura e com controle administrativo total.
+<p align="center">
+  <img src="https://img.shields.io/badge/status-Em%20Produção-brightgreen"/>
+  <img src="https://img.shields.io/badge/PHP-8.x-blue"/>
+  <img src="https://img.shields.io/badge/MySQL-Relacional-blue"/>
+  <img src="https://img.shields.io/badge/LMS-Corporativo-purple"/>
+  <img src="https://img.shields.io/badge/Security-Session%20Guard-red"/>
+</p>
 
 ---
 
-### 💻 Habilidades Técnicas Aplicadas
-* **Linguagens:** HTML5, CSS3, JavaScript e PHP 8.x (PDO).
-* **Banco de Dados:** MySQL (Modelagem relacional e integridade de dados).
-* **Ferramentas:** Git, GitHub, VS Code e PHPMailer.
+## 🧠 Sobre o Projeto
 
+O **CXPRO LMS** é um **Sistema de Gerenciamento de Aprendizado corporativo**, criado para empresa que precisou de:
+
+- Treinar novos colaboradores rapidamente
+- Padronizar processos e conhecimento interno
+- Acompanhar progresso, desempenho e engajamento
+- Garantir **segurança, controle de acesso e certificação**
+
+Tudo isso em uma plataforma **leve, moderna, responsiva e escalável**.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="55"/>
+</div>
+
+### Stack Técnica
+- **Frontend:** HTML5, CSS3, JavaScript (UX otimizado)
+- **Backend:** PHP 8.x (PDO, arquitetura segura)
+- **Banco de Dados:** MySQL (modelagem relacional)
+- **Segurança:** Tokens de sessão, anti-login simultâneo
+- **E-mail:** PHPMailer (reset de senha e notificações)
+- **Controle de Versão:** Git & GitHub
+
+---
+
+## 🎯 Principais Funcionalidades
+
+### 🎮 Gamificação
+- Sistema de **XP e níveis**
+- Ranking global entre alunos
+- Evolução visual em tempo real
+
+### 📚 Aprendizado Estruturado
+- Módulos e aulas organizadas
+- Vídeos, materiais em PDF e quizzes
+- Controle de progresso individual
+
+### 🧪 Avaliações Inteligentes
+- Quizzes dinâmicos
+- Feedback automático
+
+### 🎓 Certificação
+- Certificado automático ao atingir 100%
+- Geração dinâmica em PDF
+- Nome, curso e data personalizados
+
+### 🛡️ Segurança Avançada
+- Vigilante de sessão em tempo real
+- Proteção contra compartilhamento de conta
+- Tokens seguros para redefinição de senha
+
+### 🧑‍💼 Painel Administrativo
+- Aprovação manual de usuários
+- Gestão de módulos, aulas e quizzes
+- Controle de permissões e perfis
+
+---
 ---
 
 ## 🖼️ Demonstração Visual
