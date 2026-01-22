@@ -80,7 +80,6 @@ Tudo isso em uma plataforma **leve, moderna, responsiva e escalável**.
 - Controle de permissões e perfis
 
 ---
----
 
 ## 🖼️ Demonstração Visual
 
